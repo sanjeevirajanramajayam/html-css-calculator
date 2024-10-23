@@ -2,22 +2,53 @@ button
 {
     padding:0px 0px;
     margin: 2px;
-    width: 30px;
-    height: 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+    font-size: x-large;
 }
 
 input
 {
-    height:8%;
-    width:18.5%;
+    height:60px;
+    width:380px;
+    border-radius: 10px;
+    font-size: x-large;
+    margin: 10px;
 }
-
 div
 {
     display: flex;
     justify-content: center;
 }
 
-.inputbox{
-    color: aqua;
+h1{
+    color: antiquewhite;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('pexels-karolina-grabowska-5412432.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.test
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid rgb(140, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(196, 0, 0);
+    max-width: 380px;
+    max-height: 800px;
 }
