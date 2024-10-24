@@ -1,17 +1,18 @@
 button
 {
     padding:0px 0px;
-    margin: 2px;
-    width: 90px;
-    height: 90px;
+    margin: 3px;
+    width: 70px;
+    height: 70px;
     border-radius: 10%;
     font-size: x-large;
+    border: none;
 }
 
 input
 {
     height:60px;
-    width:380px;
+    width:300px;
     border-radius: 10px;
     font-size: x-large;
     margin: 10px;
@@ -23,6 +24,8 @@ div
 }
 
 h1{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
     color: antiquewhite;
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,9 +38,9 @@ body{
     background-repeat: no-repeat;
 }
 
-.test
+.main
 {
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
@@ -49,6 +52,18 @@ body{
     border: 5px solid rgb(140, 0, 0);
     border-radius: 20px;
     background-color: rgb(196, 0, 0);
-    max-width: 380px;
+    max-width: min-content;
     max-height: 800px;
+}
+
+#operators
+{
+    background-color: #5882BD;
+    color: white;
+}
+
+#spec
+{
+    background-color: #F74535;
+    color: white;
 }
