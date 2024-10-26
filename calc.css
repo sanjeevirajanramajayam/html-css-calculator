@@ -16,6 +16,8 @@ input
     border-radius: 10px;
     font-size: x-large;
     margin: 10px;
+    border: none;
+    padding-left: 10px;
 }
 div
 {
